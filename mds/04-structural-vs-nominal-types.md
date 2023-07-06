@@ -49,3 +49,4 @@ function bar(): string[] {
 ### What is the difference between `static` and `dynamic` type?
 The static type of a variable is the type of the variable given in its declaration. The dynamic type of a variable is the type of the value in the variable. The term has meaning only when the program is running, and the dynamic type may be changed often as new values are assigned to the variable.
 
+In Progress...
