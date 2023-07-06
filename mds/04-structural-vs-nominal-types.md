@@ -49,4 +49,32 @@ function bar(): string[] {
 ### What is the difference between `static` and `dynamic` type?
 The static type of a variable is the type of the variable given in its declaration. The dynamic type of a variable is the type of the value in the variable. The term has meaning only when the program is running, and the dynamic type may be changed often as new values are assigned to the variable.
 
-In Progress...
+- Static Typing:
+
+```ts
+let num: number = 10;
+let str: string = 'Hello, TypeScript';
+let bool: boolean = true;
+
+// Static typing enforces type checking
+num = 'Invalid'; // Error: Type '"Invalid"' is not assignable to type 'number'
+str = 42; // Error: Type '42' is not assignable to type 'string'
+bool = 0; // Error: Type '0' is not assignable to type 'boolean'
+ ```
+
+- - - - - 
+
+- Dynamic Typing:
+
+```ts
+let dynamicVariable: any = 'Hello, TypeScript'; // Using 'any' for dynamic typing
+console.log(dynamicVariable.length); // Output: 18
+
+dynamicVariable = 10; // Assigning a different type
+console.log(dynamicVariable.length); // Output: undefined
+console.log(dynamicVariable.toFixed(2)); // Output: 10.00
+
+```
+
+- TypeScript’s type system is static.
+
