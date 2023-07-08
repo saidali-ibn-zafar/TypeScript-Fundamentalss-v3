@@ -3,7 +3,13 @@
 ![photo_2023-07-02_17-40-33](https://github.com/saidali-ibn-zafar/saidali-ibn-zafar/assets/120341849/7caa6739-d1c7-4382-9dc4-6ef5eb95915d)
 - - - - -
 ### What is TypeScript?
-- TypeScript is an `open source`, typed `syntactic superset` of JavaScript.
+- TypeScript is a programming language which can be used as an alternative to JS, now it is actually knows as a superset of the JS language meaning that it basically extends the language with new features and syntax so it do all the same things that JS can do but it also comes with extra features and a new syntax to boot as well, now browsers by default they do not understand typescript we then have to compile it down into JS in order for browsers to understand it...
+
+- Alternative to JS (superset)
+- Allows us to use strict types
+- Support modern features (arrow functions, let, const)
+- Extra features (generics, interfaces, tuples etc)
+
 
 ```
 // TypeScript is a programming language developed by Microsoft. It is a statically-typed superset of JavaScript, which means that it adds optional static typing and other features to JavaScript. TypeScript is designed to improve the development experience and maintainability of large-scale JavaScript applications.
