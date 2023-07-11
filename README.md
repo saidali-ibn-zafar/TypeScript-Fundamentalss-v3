@@ -5,6 +5,10 @@
 - [Objects, arrays and tuples](03-objects-arrays-and-tuples.md)
 - [Explicit types additional](03-explitic-types-additional.md)
 - [Structural vs Nominal types](04-structural-vs-nominal-types.md)
+- [Union types](https://github.com/saidali-ibn-zafar/TypeScript-Fundamentals-v3/blob/main/mds/05-union-types.md)
+- [Intersection types](https://github.com/saidali-ibn-zafar/TypeScript-Fundamentals-v3/blob/main/mds/06-intersection-types.md)
+- [Optional property](https://github.com/saidali-ibn-zafar/TypeScript-Fundamentals-v3/blob/main/mds/07-optional-property.md)
+- [Type aliases](https://github.com/saidali-ibn-zafar/TypeScript-Fundamentals-v3/blob/main/mds/08-type-aliases.md)
 
 ![fb-making-typescript-stick](https://github.com/saidali-ibn-zafar/TypeScript-Fundamentals-v3/assets/120341849/00ff4022-91b2-4a97-8487-224cf5cdff62)
 
