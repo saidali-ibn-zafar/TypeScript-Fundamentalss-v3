@@ -2,6 +2,11 @@
 
 The simplest way to describe a function is with <i>function type expression</i>. These types are syntatically similar to arrow function: 
 
+Function Type Expression: 
+```ts
+type MyFunctionType = (param1: type1, param2: type2, ...) => returnType;
+```
+- - - - - 
 ```ts
 function greeter(fn: (a: string) => void) {
   fn("Hello, World");
