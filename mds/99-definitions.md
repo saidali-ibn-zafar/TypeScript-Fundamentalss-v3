@@ -13,6 +13,9 @@
   TypeScript there are a few ways to declare an optional object property.
     - We can use a `union`,
     - or use the question mark `(?)` symbol after the property name.
+ 
+- An optional property in TypeScript is a property that may or may not be present when creating an object of a particular type.
+    - Optional properties are denoted by adding a question mark (?) after the property name in an interface or type declaration. For example: let name ?: type;
 
 - - - - - 
 
@@ -47,4 +50,26 @@
 
 - - - - - 
 
-## 
+## What is Union Type?
+- Union types are used when a value can be `more` than a single type. And a union type is created using the `"or"` operator `(|)`. It allows a variable or parameter to hold values of multiple specified types.
+
+- - - - - 
+
+## What is Intersection Type? 
+- Intersection types in TypeScript allow you to `combine multiple types` into a `single type`, resulting in a new type that includes all the properties and methods from the intersected types. The syntax for defining an intersection type is to use the `ampersand` `(&)` symbol between the types we want to intersect.
+  
+- - - - - 
+
+## What is `Type Aliases` ?
+- In TypeScript, a `type alias` is a way to create a new name for an existing type. It allows you to define your own custom names for types, making your code more `readable` and `maintainable`.
+   - In TypeScript, we can use the `type` keyword to create type aliases.
+   - And after type keyword we give a name, so it is called, `TitleCase`.
+
+Type aliases help to address this, by allowing us to:
+- define `a more meaningful name` for this type
+- declare the particulars of the type in `a single place`
+- `import and export` this type from modules, the same as if it were an exported value
+
+- - - - -
+
+## What is 
