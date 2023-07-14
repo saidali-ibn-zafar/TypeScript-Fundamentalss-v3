@@ -1,10 +1,10 @@
-# TypeScript-Fundamentals-v3
+ # TypeScript-Fundamentals-v3
 
 - [Introduction to TypeScript](mds/01-introduction-to-TS.md)
-- [Variable and Values](02-variables-and-values.md)
-- [Objects, arrays and tuples](03-objects-arrays-and-tuples.md)
-- [Explicit types additional](03-explitic-types-additional.md)
-- [Structural vs Nominal types](04-structural-vs-nominal-types.md)
+- [Variable and Values](mds/02-variables-and-values.md)
+- [Objects, arrays and tuples](mds/03-objects-arrays-and-tuples.md)
+- [Explicit types additional](mds/03-explitic-types-additional.md)
+- [Structural vs Nominal types](mds/04-structural-vs-nominal-types.md)
 - [Union types](https://github.com/saidali-ibn-zafar/TypeScript-Fundamentals-v3/blob/main/mds/05-union-types.md)
 - [Intersection types](https://github.com/saidali-ibn-zafar/TypeScript-Fundamentals-v3/blob/main/mds/06-intersection-types.md)
 - [Optional property](https://github.com/saidali-ibn-zafar/TypeScript-Fundamentals-v3/blob/main/mds/07-optional-property.md)
