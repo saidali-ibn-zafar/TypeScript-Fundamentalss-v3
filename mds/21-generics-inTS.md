@@ -43,3 +43,6 @@ let output = identity("myString");
 ```
 
 Notice that we didn’t have to explicitly pass the type in the angle brackets (`<>`); the compiler just looked at the value `"myString"`, and set Type to its type. While type argument inference can be a helpful tool to keep code shorter and more readable, you may need to explicitly pass in the type arguments as we did in the previous example when the compiler fails to infer the type, as may happen in more complex examples.
+
+
+[Click for more](https://github.com/saidali-ibn-zafar/TypeScript-Fundamentals-v3/blob/main/TypeScript-fundamentals-v3/14-generics.ts)
