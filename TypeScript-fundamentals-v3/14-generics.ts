@@ -26,3 +26,48 @@ const mergedNumbers = mergeArrays(numbers1, numbers2); //  output: [1, 2, 3, 4, 
 const fruits1 = ["apple", "banana"];
 const fruits2 = ["orange", "grape"];
 const mergedFruits = mergeArrays(fruits1, fruits2); //  output: ["apple", "banana", "orange", "grape"]
+
+// - - - - - 
+// Map:
+
+// The map function takes an array of elements, transforms each element using a mapping function, and returns a new array containing the transformed elements.
+
+function mapArray<T, U>(arr: T[], mappingFn: (item: T) => U): U[] {
+  return arr.map(mappingFn);
+}
+
+// Example usage:
+const numbers = [1, 2, 3, 4];
+const squaredNumbers = mapArray(numbers, (num) => num * num);
+console.log(squaredNumbers); // Output: [1, 4, 9, 16]
+
+// - - - - - 
+
+// Filter:
+
+// The filter function takes an array of elements, applies a filtering function to each element, and returns a new array containing only the elements that pass the filter condition.
+
+function filterArray<T>(arr: T[], filterFn: (item: T) => boolean): T[] {
+  return arr.filter(filterFn);
+}
+
+// Example usage:
+const numbers = [1, 2, 3, 4, 5];
+const evenNumbers = filterArray(numbers, (num) => num % 2 === 0);
+console.log(evenNumbers); // Output: [2, 4]
+
+// - - - - - 
+
+// Reduce:
+
+// The reduce function takes an array of elements and accumulates them into a single value using a reducing function.
+
+function reduceArray<T, U>(arr: T[], reducerFn: (accumulator: U, currentValue: T) => U, initialValue: U): U {
+  return arr.reduce(reducerFn, initialValue);
+}
+
+// Example usage:
+const numbers = [1, 2, 3, 4, 5];
+const sum = reduceArray(numbers, (acc, num) => acc + num, 0);
+console.log(sum); // Output: 15
+
