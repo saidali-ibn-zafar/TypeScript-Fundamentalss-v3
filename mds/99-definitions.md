@@ -60,7 +60,7 @@
   
 - - - - - 
 
-## What is `Type Aliases` ?
+## What is Type Aliases?
 - In TypeScript, a `type alias` is a way to create a new name for an existing type. It allows you to define your own custom names for types, making your code more `readable` and `maintainable`.
    - In TypeScript, we can use the `type` keyword to create type aliases.
    - And after type keyword we give a name, so it is called, `TitleCase`.
@@ -72,4 +72,11 @@ Type aliases help to address this, by allowing us to:
 
 - - - - -
 
-## What is 
+## What is Interfaces? 
+- In TypeScript, an interface is used to create a custom type that defines the structure and shape of objects. It allows you to specify the properties and their types that an object should have, along with optional properties and methods.
+
+- - - - - 
+
+## What is Function Overloads?
+
+- Function overloading is a feature of object-oriented programming where two or more functions can have the same name but different parameters. 
