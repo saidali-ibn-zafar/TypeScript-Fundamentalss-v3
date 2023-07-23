@@ -29,3 +29,23 @@
       console.log(a);
   }
   ```
+
+  - - - - -
+
+Here is better example for function overloads to understand better: 
+
+  ```ts
+  function greet(name: string): string;
+  function greet(age: number): string;
+  function greet(input: string | number): string {
+    if (typeof input === "string") {
+      return `Hello, ${input}!`;
+    } else {
+      return `You are ${input} years old.`;
+    }
+  }
+  
+  const message1 = greet("Alice"); // Output: "Hello, Alice!"
+  const message2 = greet(30); // Output: "You are 30 years old."
+
+  ```
