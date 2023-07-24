@@ -80,3 +80,19 @@ Type aliases help to address this, by allowing us to:
 ## What is Function Overloads?
 
 - Function overloading is a feature of object-oriented programming where two or more functions can have the same name but different parameters. 
+
+- - - - - 
+
+## What are Top and Bottom Types?
+
+- In TypeScript, there are two top types `unknown` and `any`, and `never` is the only bottom type. Most of us are very well aware of any type in TypeScript. It's the starting point of our migration from JavaScript to TypeScript codes. Just like all types are assignable to any, all types are also assignable to “unknown”.
+
+- - - - - 
+
+What is type `any` and `unknown`?
+
+- Any is not safe, but console.log, it can print anything;
+- Unknown is also the same with any, however, unknown is different from any in a very important way: The key difference is that unknown enforces type checking and requires explicit type assertions or type checks before performing operations on values of type unknown. This promotes stronger type safety compared to any, which allows unrestricted operations without type checks.
+
+- - - - - 
+
