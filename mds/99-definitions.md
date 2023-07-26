@@ -1,3 +1,4 @@
+
 - - - - - 
 ## What is TypeScript? 
 - TypeScript is a programming language which can be used as an alternative to JS, now it is actually knows as a superset of the JS language meaning that it basically extends the language with `new features` and syntax so it do all the same things that JS can do but it also comes with `extra features` and a `new syntax` to boot as well, now browsers by `default` they do not understand typescript we then have to compile it down into JS in order for browsers to understand it...
@@ -89,10 +90,12 @@ Type aliases help to address this, by allowing us to:
 
 - - - - - 
 
-What is type `any` and `unknown`?
+## What is type `any` and `unknown`?
 
 - Any is not safe, but console.log, it can print anything;
 - Unknown is also the same with any, however, unknown is different from any in a very important way: The key difference is that unknown enforces type checking and requires explicit type assertions or type checks before performing operations on values of type unknown. This promotes stronger type safety compared to any, which allows unrestricted operations without type checks.
 
 - - - - - 
 
+## What is type `never`?
+- TypeScript introduced a new type never , which indicates the values that will never occur. The never type is used when you are sure that something is never going to occur.
