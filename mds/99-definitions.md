@@ -99,3 +99,17 @@ Type aliases help to address this, by allowing us to:
 
 ## What is type `never`?
 - TypeScript introduced a new type never , which indicates the values that will never occur. The never type is used when you are sure that something is never going to occur.
+
+- - - - - 
+
+## What is Type Guards? 
+- Type guards are a feature in TypeScript that allow developers to check and narrow down the type of a variable dynamically at runtime. They are useful when working with union types, where a variable can have multiple potential types. Type guards help TypeScript make more precise type inferences, reducing the chance of runtime errors and enabling developers to write safer code.
+
+- - - - - 
+
+## What is Type Narrowing?
+- Type narrowing is a feature in TypeScript that allows the compiler to determine a more specific type for a variable based on certain conditions. It's like telling TypeScript, "Hey, I checked this variable, and now I know exactly what type it is in this specific part of the code."
+
+- - - - - 
+
+
