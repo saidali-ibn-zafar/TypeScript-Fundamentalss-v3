@@ -9,6 +9,9 @@
 - [Intersection types](https://github.com/saidali-ibn-zafar/TypeScript-Fundamentals-v3/blob/main/mds/06-intersection-types.md)
 - [Optional property](https://github.com/saidali-ibn-zafar/TypeScript-Fundamentals-v3/blob/main/mds/07-optional-property.md)
 - [Type aliases](https://github.com/saidali-ibn-zafar/TypeScript-Fundamentals-v3/blob/main/mds/08-type-aliases.md)
+- [Function Type Expression](https://github.com/saidali-ibn-zafar/TypeScript-Fundamentals-v3/blob/main/mds/09-function-type-expression.md)
+- [Call signatures](https://github.com/saidali-ibn-zafar/TypeScript-Fundamentals-v3/blob/main/mds/10-call-signatures.md)
+- [Construct signature](https://github.com/saidali-ibn-zafar/TypeScript-Fundamentals-v3/blob/main/mds/11-construct-signature.md)
 
 ![fb-making-typescript-stick](https://github.com/saidali-ibn-zafar/TypeScript-Fundamentals-v3/assets/120341849/00ff4022-91b2-4a97-8487-224cf5cdff62)
 
