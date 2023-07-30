@@ -105,6 +105,29 @@ Type aliases help to address this, by allowing us to:
 ## What is Type Guards? 
 - Type guards are a feature in TypeScript that allow developers to check and narrow down the type of a variable dynamically at runtime. They are useful when working with union types, where a variable can have multiple potential types. Type guards help TypeScript make more precise type inferences, reducing the chance of runtime errors and enabling developers to write safer code.
 
+```ts
+// Union type representing either a string or a number
+type StringOrNumber = string | number;
+
+// Type guard function to check if the input is a string
+function isString(value: StringOrNumber): value is string {
+  return typeof value === 'string';
+}
+
+// Usage of type guard
+function processValue(value: StringOrNumber): void {
+  if (isString(value)) {
+    // Inside this block, TypeScript knows that 'value' is of type 'string'
+    console.log(`The length of the string: ${value.length}`);
+  } else {
+    // Inside this block, TypeScript knows that 'value' is of type 'number'
+    console.log(`The square of the number: ${value * value}`);
+  }
+}
+```
+
+The main purpose of type guards in TypeScript is to enable more precise type inference and type checking at runtime.
+
 - - - - - 
 
 ## What is Type Narrowing?
