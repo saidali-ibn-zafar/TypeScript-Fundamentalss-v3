@@ -42,3 +42,15 @@ processData(true);    // Output: Invalid data type.
 - - - - - 
 By using type guards, you can handle different types of data in a type-safe manner and ensure that the correct type-specific operations are performed without introducing runtime errors.
 
+- - - - - 
+
+More info:
+
+- Type guards are functions or expressions that perform runtime checks to determine the actual type of a variable with a union type or complex type.
+
+- Type guards are typically custom functions with a specific signature (value is Type) that return a boolean value (true or false) based on the type check.
+
+- The primary purpose of type guards is to enable more precise type inference and type checking at runtime.
+
+- Type guards are used in conditional statements (e.g., if, else, switch) to conditionally narrow down the type of a variable within specific code blocks based on the result of the type check.
+
