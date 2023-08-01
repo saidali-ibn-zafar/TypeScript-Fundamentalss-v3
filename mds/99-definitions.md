@@ -103,7 +103,7 @@ Type aliases help to address this, by allowing us to:
 - - - - - 
 
 ## What is Type Guards? 
-- Type guards are a feature in TypeScript that allow developers to check and narrow down the type of a variable dynamically at runtime. They are useful when working with union types, where a variable can have multiple potential types. Type guards help TypeScript make more precise type inferences, reducing the chance of runtime errors and enabling developers to write safer code.
+- Type guards are a set of techniques in TypeScript used to perform runtime checks and make more precise type inferences for variables that have union types. A union type allows a variable to hold values of multiple types. 
 
 ```ts
 // Union type representing either a string or a number
@@ -128,6 +128,65 @@ function processValue(value: StringOrNumber): void {
 
 The main purpose of type guards in TypeScript is to enable more precise type inference and type checking at runtime.
 
+   - Built-in type guards:
+      - typeof
+      - instanceof
+      - Specific value check
+      - Truthy/falsy check
+      - Some built-in functions
+      - Property presence check
+        ```ts
+        let value:
+        | Date
+        | null
+        | undefined
+        | "pineapple"
+        | [number]
+        | { dateRange: [Date, Date] }
+       
+         // instanceof
+         if (value instanceof Date) {
+           value
+            
+         //let value: Date
+         }
+         // typeof
+         else if (typeof value === "string") {
+           value
+            
+         //let value: "pineapple"
+         }
+         // Specific value check
+         else if (value === null) {
+           value
+            
+         //let value: null
+         }
+         // Truthy/falsy check
+         else if (!value) {
+           value
+            
+         //let value: undefined
+         }
+         // Some built-in functions
+         else if (Array.isArray(value)) {
+           value
+            
+         //let value: [number]
+         }
+         // Property presence check
+         else if ("dateRange" in value) {
+           value
+            
+         //let value: {
+         //    dateRange: [Date, Date];
+         //}
+         } else {
+           value
+            
+         //let value: never
+         }
+        ```
 - - - - - 
 
 ## What is Type Narrowing?
