@@ -209,3 +209,5 @@ The main purpose of type guards in TypeScript is to enable more precise type inf
    const reversedStrings = reverseArray(strings);
    console.log(reversedStrings); // Output: ['orange', 'banana', 'apple']
   ```
+  The same reverseArray function can handle arrays of both numbers and strings, thanks to generics, making it reusable and type-safe.
+  - - - - - 
