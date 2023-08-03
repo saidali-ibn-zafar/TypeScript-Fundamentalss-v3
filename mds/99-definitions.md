@@ -194,4 +194,18 @@ The main purpose of type guards in TypeScript is to enable more precise type inf
 
 - - - - - 
 
+## What is Generics in TS? 
+- The main purpose of generics in TypeScript is to create reusable, type-safe components that can work with multiple data types, providing flexibility, maintainability, and better type checking.
+  ```ts
+   function reverseArray<T>(arr: T[]): T[] {
+     return arr.reverse();
+   }
 
+   const numbers = [1, 2, 3, 4, 5];
+   const reversedNumbers = reverseArray(numbers);
+   console.log(reversedNumbers); // Output: [5, 4, 3, 2, 1]
+   
+   const strings = ['apple', 'banana', 'orange'];
+   const reversedStrings = reverseArray(strings);
+   console.log(reversedStrings); // Output: ['orange', 'banana', 'apple']
+  ```
