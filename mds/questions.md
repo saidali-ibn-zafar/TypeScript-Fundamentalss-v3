@@ -217,11 +217,7 @@
 
 29) Complete the Generic:
    ```ts
-   function createPair
-   <typeX
-   , 
-   typeY>
-   (x: typeX, y: typeY): [typeX, typeY] {
+   function createPair<typeX, typeY>(x: typeX, y: typeY): [typeX, typeY] {
     return [x, y];
    }
    console.log(createPair<string, number>('Meaning', 42));
@@ -237,8 +233,7 @@
     lastName: string;
       }
                   
-      let 
-      kindPerson: Partial<Person> = {}; 
+      let kindPerson: Partial<Person> = {}; 
     ```
 
 - - - - - 
@@ -251,11 +246,7 @@
     lastName?: string;
       }
                   
-      let 
-      kindPerson
-      : 
-      Required<Person>
-       = {
+      let kindPerson: Required<Person> = {
           age: 1800,
           firstName: "Santa",
           lastName: "Claus"
