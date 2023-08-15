@@ -9,6 +9,14 @@
 
 - - - - - 
 
+## Why we use TypeScript?
+- TypeScript extends JavaScript and improves the developer experience. It enables developers to add type safety to their projects. Moreover, TypeScript provides various other features, like interfaces, type aliases, abstract classes, function overloading, tuple, generics, etc.
+```ts
+function add(a:number, b:number){
+   
+}
+```
+
 ## What are Optional Properties?
 - Optional properties are properties that can hold a `value` or be `undefined`.
   TypeScript there are a few ways to declare an optional object property.
