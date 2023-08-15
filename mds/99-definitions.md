@@ -11,9 +11,11 @@
 
 ## Why we use TypeScript?
 - TypeScript extends JavaScript and improves the developer experience. It enables developers to add type safety to their projects. Moreover, TypeScript provides various other features, like interfaces, type aliases, abstract classes, function overloading, tuple, generics, etc.
+
+For example: please note the example below, in this function we can add numbers. However, if we try with strings we get string concatenation instead of sum of number, so we need to use in TS in some cases.
 ```ts
-function add(a:number, b:number){
-   
+function add(a, b){
+   return a + b;
 }
 ```
 
