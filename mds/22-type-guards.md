@@ -54,3 +54,8 @@ More info:
 
 - Type guards are used in conditional statements (e.g., if, else, switch) to conditionally narrow down the type of a variable within specific code blocks based on the result of the type check.
 
+- - - - -
+
+## What's a "Type Guard"?
+- A code pattern where we check for a certain type before we try to do something with it at runtime.
+
