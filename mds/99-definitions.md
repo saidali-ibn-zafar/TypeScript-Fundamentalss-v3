@@ -225,3 +225,8 @@ The main purpose of type guards in TypeScript is to enable more precise type inf
 ## What is enum? 
 
 An enum is a special "class" that represents a group of constants (unchangeable variables).
+
+- - - - - 
+
+## In which cases is type casting helpful?
+- When we want to inform TS that a certain value is of a specific type.
