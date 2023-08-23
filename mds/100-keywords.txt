@@ -1,0 +1,2 @@
+tsc (nameFile)
+tsc (nameFile) -w or --watch 
