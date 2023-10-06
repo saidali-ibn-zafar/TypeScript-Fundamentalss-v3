@@ -78,3 +78,17 @@ console.log(dynamicVariable.toFixed(2)); // Output: 10.00
 
 - TypeScript’s type system is static.
 
+
+- - - - - 
+
+- Static Typing:
+  - Type Checking at Compile Time,
+  - Type Annotations,
+  - Early Error Detection during compilation.
+  - Examples: Languages like Java, C++, and TypeScript are statically typed.
+- - - - - 
+- Dynamic Typing:
+  - Type Checking at Runtime:
+  - No Type Annotations:
+  - Flexible but Prone to Runtime Errors: Dynamic typing allows for more flexibility but can lead to type-related errors at runtime if not handled carefully.
+  - Examples: Languages like Python, JavaScript, and Ruby are dynamically typed.
